@@ -62,6 +62,10 @@
 // */
 class PHPExcel_Writer_Excel5_Xf
 {
+    public $_diag;
+    public $_diag_color;
+    public $_style;
+
     /**
      * Style XF or a cell XF ?
      *
@@ -129,7 +133,7 @@ class PHPExcel_Writer_Excel5_Xf
      * @access public
      * @param PHPExcel_Style    The XF format
      */
-    public function __construct(PHPExcel_Style $style = null)
+    public function __construct(?PHPExcel_Style $style = null)
     {
         $this->isStyleXf =     false;
         $this->fontIndex = 0;

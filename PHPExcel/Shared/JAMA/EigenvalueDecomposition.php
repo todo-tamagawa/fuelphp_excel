@@ -23,6 +23,8 @@
  */
 class EigenvalueDecomposition
 {
+    public $A;
+
     /**
      *    Row and column dimension (square matrix).
      *    @var int

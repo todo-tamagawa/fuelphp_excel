@@ -37,6 +37,8 @@ $GLOBALS['_OLE_INSTANCES'] = array();
 */
 class PHPExcel_Shared_OLE
 {
+    public $bigBlockThreshold;
+
     const OLE_PPS_TYPE_ROOT   =      5;
     const OLE_PPS_TYPE_DIR    =      1;
     const OLE_PPS_TYPE_FILE   =      2;

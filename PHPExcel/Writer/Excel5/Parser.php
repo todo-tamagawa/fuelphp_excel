@@ -51,6 +51,9 @@
 // */
 class PHPExcel_Writer_Excel5_Parser
 {
+    public $ptg;
+    public $functions;
+
     /**    Constants                */
     // Sheet title in unquoted form
     // Invalid sheet title characters cannot occur in the sheet title:

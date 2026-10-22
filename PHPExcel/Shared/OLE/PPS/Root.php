@@ -29,6 +29,12 @@
 */
 class PHPExcel_Shared_OLE_PPS_Root extends PHPExcel_Shared_OLE_PPS
 {
+    public $_tempDir;
+    public $_BIG_BLOCK_SIZE;
+    public $_SMALL_BLOCK_SIZE;
+    public $_FILEH_;
+    public $_tmp_filename;
+
 
     /**
      * Directory for temporary files

@@ -9,6 +9,8 @@
 
 class PHPExcel_Chart_Axis extends PHPExcel_Chart_Properties
 {
+    public $orientation;
+
     /**
      * Axis Number
      *

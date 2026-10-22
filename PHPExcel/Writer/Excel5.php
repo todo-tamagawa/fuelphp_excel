@@ -27,6 +27,9 @@
  */
 class PHPExcel_Writer_Excel5 extends PHPExcel_Writer_Abstract implements PHPExcel_Writer_IWriter
 {
+    public $writerWorkbook;
+    public $writerWorksheets;
+
     /**
      * PHPExcel object
      *

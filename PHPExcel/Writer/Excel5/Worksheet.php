@@ -62,6 +62,9 @@
 // */
 class PHPExcel_Writer_Excel5_Worksheet extends PHPExcel_Writer_Excel5_BIFFwriter
 {
+    public $_preCalculateFormulas;
+    public $_print_headers;
+
     /**
      * Formula parser
      *
@@ -2671,7 +2674,7 @@ class PHPExcel_Writer_Excel5_Worksheet extends PHPExcel_Writer_Excel5_BIFFwriter
      *
      * @param PHPExcel_Shared_Escher $pValue
      */
-    public function setEscher(PHPExcel_Shared_Escher $pValue = null)
+    public function setEscher(?PHPExcel_Shared_Escher $pValue = null)
     {
         $this->escher = $pValue;
     }
